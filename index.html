@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tic Tac Toe</title>
+    <link href="https://fonts.cdnfonts.com/css/dacherry" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1><a href="http://127.0.0.1:5500/index.html">Tic Tac Toe</a></h1>
+    <table>
+        <tr class="row">
+            <td class="cell" onclick="makeMove(0, 0)" onmouseover="green(this)" onmouseout="blue(this)"></td>
+            <td class="cell" onclick="makeMove(0, 1)" onmouseover="green(this)" onmouseout="blue(this)"></td>
+            <td class="cell" onclick="makeMove(0, 2)" onmouseover="green(this)" onmouseout="blue(this)"></td>
+        </tr>
+        <tr class="row">
+            <td class="cell" onclick="makeMove(1, 0)" onmouseover="green(this)" onmouseout="blue(this)"></td>
+            <td class="cell" onclick="makeMove(1, 1)" onmouseover="green(this)" onmouseout="blue(this)"></td>
+            <td class="cell" onclick="makeMove(1, 2)" onmouseover="green(this)" onmouseout="blue(this)"></td>
+        </tr>
+        <tr class="row">
+            <td class="cell" onclick="makeMove(2, 0)" onmouseover="green(this)" onmouseout="blue(this)"></td>
+            <td class="cell" onclick="makeMove(2, 1)" onmouseover="green(this)" onmouseout="blue(this)"></td>
+            <td class="cell" onclick="makeMove(2, 2)" onmouseover="green(this)" onmouseout="blue(this)"></td>
+        </tr>
+    </table>
+    <h1 id="message"></h1>
+</body>
+</html>
